@@ -4,13 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/mathematics.png">
     <title>Fermat | Início</title>
+    <!-- CSS (Bootstrap + Arquivo CSS) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/main.js" defer></script>
+
+    <!-- JS (Bootstrap + FontAwesome + Arquivo js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
+        defer></script>
+    <script src="https://kit.fontawesome.com/7a830f1933.js" crossorigin="anonymous" defer></script>
+    <script src="./js/index-page.js" defer></script>
 </head>
 
 <body>
+    <header class="container-fluid">
+        <div class="logo">FERMAT</div>
+    </header>
 
+    <main class="container d-flex align-items-center justify-content-center">
+        <div class="row">
+            <div class="col-12">
+                <div class="player-info d-flex">
+                    <form id="player-form">
+                        <input type="text" placeholder="Insira seu nome">
+                    </form>
+                    <button id="player-info-button">
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
