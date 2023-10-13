@@ -16,7 +16,7 @@
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"
         defer></script>
     <script src="https://kit.fontawesome.com/7a830f1933.js" crossorigin="anonymous" defer></script>
-    <script src="./js/index-page.js" defer></script>
+    <script src="./js/redirect.js" defer></script>
 </head>
 
 <body>
@@ -24,16 +24,24 @@
         <div class="logo">FERMAT</div>
     </header>
 
-    <main class="container d-flex align-items-center justify-content-center">
+    <main class="container d-flex align-items-center justify-content-center" id="index-main">
         <div class="row">
             <div class="col-12">
-                <div class="player-info d-flex">
-                    <form id="player-form">
-                        <input type="text" placeholder="Insira seu nome">
-                    </form>
-                    <button id="player-info-button">
-                        <i class="fa-solid fa-arrow-right"></i>
-                    </button>
+                <div class="d-flex flex-column">
+                    <p>Olá! Vamos ajudar nosso amigo Mat! Sua missão hoje é ajudar a salvar nosso amigo! Acerte o
+                        resultado da equação e ele ficará bem.</p>
+
+                    <span>
+                        Regras:
+                        <ul>
+                            <li>Respeite o PEMDAS (ordem das operações);</li>
+                            <li>Se repetir o mesmo número você perde uma parte do corpo.</li>
+                        </ul>
+                    </span>
+
+                    <p>Pronto para começar?</p>
+
+                    <button type="button" id="index-start">Iniciar</button>
                 </div>
             </div>
         </div>

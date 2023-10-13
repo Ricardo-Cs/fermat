@@ -1,0 +1,18 @@
+/* Global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-3);
+}
+
+/* Header */
+header {
+    padding: 0.5rem;
+    color: var(--color-1);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.3);
+}
